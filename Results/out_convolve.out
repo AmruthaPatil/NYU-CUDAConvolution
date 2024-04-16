@@ -1,0 +1,6 @@
+rm -f partc *.o
+/usr/local/cuda/bin/nvcc -o partc partc.cu -L/usr/local/cuda/lib64 -lcudnn
+make: 'partc' is up to date.
+122756344698240.000000, 11.729 ms
+122756344698240.000000, 15.125 ms
+122756344698240.000000, 13.105 ms
